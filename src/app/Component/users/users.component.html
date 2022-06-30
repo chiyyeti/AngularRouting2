@@ -1,0 +1,20 @@
+<div class="container">
+
+    <button class="btn btn-warn" routerLink="/adduser" >Add User</button>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let x of usersData" >
+                <td>  <a [routerLink]="['/user',x.id]" >{{x.id}}</a> </td>
+                <td>{{x.name}}</td>
+                <td>{{x.age}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

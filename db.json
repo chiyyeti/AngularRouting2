@@ -1,0 +1,43 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "users": [
+    
+      {
+        "id": 1,
+        "name": "gana",
+        "age": 24
+      },
+      {
+        "id": 2,
+        "name": "manu",
+        "age": 26
+      },
+      {
+        "id": 3,
+        "name": "anil",
+        "age": 23
+      },
+      {
+        "id": 4,
+        "name": "sunny",
+        "age": 21
+      }
+    
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
